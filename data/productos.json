@@ -1,0 +1,31 @@
+[
+    {
+      "id": 1,
+      "nombre": "Zapatillas Urbanas AFFRA",
+      "precio": 18999,
+      "imagen": "img/zapatillas-urbanas.jpg",
+      "descripcion": "Diseño urbano con máxima comodidad y estilo."
+    },
+    {
+      "id": 2,
+      "nombre": "Campera Deportiva AFFRA",
+      "precio": 24999,
+      "imagen": "img/campera-deportiva.jpg",
+      "descripcion": "Ideal para entrenamientos al aire libre."
+    },
+    {
+      "id": 3,
+      "nombre": "Remera Oversize AFFRA",
+      "precio": 9999,
+      "imagen": "img/remera-oversize.jpg",
+      "descripcion": "Estilo moderno y fresco, para todos los días."
+    },
+    {
+      "id": 4,
+      "nombre": "Mochila AFFRA Pro",
+      "precio": 14999,
+      "imagen": "img/mochila-pro.jpg",
+      "descripcion": "Espaciosa, resistente y con múltiples compartimientos."
+    }
+  ]
+  

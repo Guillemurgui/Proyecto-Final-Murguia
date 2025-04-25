@@ -1,0 +1,149 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 0.5rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  /* Catálogo */
+  .productos-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  
+  .card-producto {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    text-align: center;
+  }
+  
+  .card-producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .card-producto h3 {
+    margin: 0.5rem 0;
+  }
+  
+  .card-producto button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #000;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .card-producto button:hover {
+    background-color: #444;
+  }
+  
+  /* Carrito */
+  .item-carrito {
+    background: #fff;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .carrito-total {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  .carrito-total button {
+    margin-top: 1rem;
+    padding: 0.7rem 2rem;
+    font-size: 1rem;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  /* Checkout */
+  .form-checkout {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-checkout label {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .form-checkout input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+  }
+  
+  /* Gracias */
+  .gracias-container {
+    text-align: center;
+    padding: 3rem;
+    background: #fff;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 2rem auto;
+    border: 1px solid #ccc;
+  }
+  
+  /* Responsive nav */
+  @media (max-width: 600px) {
+    nav a {
+      display: block;
+      margin: 0.5rem 0;
+    }
+  
+    .form-checkout, .gracias-container {
+      padding: 1rem;
+    }
+  }
+  

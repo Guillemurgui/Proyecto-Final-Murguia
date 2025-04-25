@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Checkout | AFFRA</title>
+  <link rel="stylesheet" href="css/estilos.css"/>
+</head>
+<body>
+  <header>
+    <h1>Finalizar Compra</h1>
+    <nav>
+      <a href="productos.html">Volver al catálogo</a>
+      <a href="carrito.html">Ver carrito</a>
+    </nav>
+  </header>
+
+  <main>
+    <form id="form-checkout" class="form-checkout">
+      <label>Nombre completo:
+        <input type="text" name="nombre" id="nombre" required />
+      </label>
+      <label>Email:
+        <input type="email" name="email" id="email" required />
+      </label>
+      <label>Dirección:
+        <input type="text" name="direccion" id="direccion" required />
+      </label>
+
+      <button type="submit">Confirmar compra</button>
+    </form>
+  </main>
+
+  <script src="js/checkout.js"></script>
+</body>
+</html>
