@@ -4,50 +4,107 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bienvenido a AFFRA</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/estilos.css" />
 </head>
 <body>
   <header>
-    <h1>Bienvenido a AFFRA</h1>
-    <nav>
-      <a href="productos.html">Ver Catálogo</a>
-      <a href="carrito.html">Ver Carrito</a>
-      <a href="checkout.html">Finalizar Compra</a>
-    </nav>
+    <h1>AFFRA</h1>
+    <p>Las mejores zaptillas para cada estilo</p>
   </header>
 
-  <main class="index-container">
-    <section class="bienvenida">
-      <h2>¡Encuentra los mejores productos de moda!</h2>
-      <p>En AFFRA tenemos lo que necesitas para tu estilo único. Explora nuestro catálogo y comienza tu compra ahora.</p>
-      <a href="productos.html" class="btn-iniciar">Ir al Catálogo</a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">AFFRA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="productos.html">Catalogo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Contactanos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="">Servicios</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+  <main class="index-container ">
+    <section>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/BANER.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/BANER.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/BANER.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
     </section>
 
     <section class="destacados">
-      <h2>Productos Destacados</h2>
+      <h2 >Productos Destacados</h2>
       <div class="productos-grid">
         <!-- Aquí irían los productos destacados, puedes ir insertando productos estáticos o dinámicos -->
         <div class="card-producto">
-          <img src="img/producto1.jpg" alt="Producto destacado 1" />
+          <img src="assets/img/adidas.jpg" alt="Producto destacado 1" />
           <h3>Producto 1</h3>
           <p>$50.00</p>
           <a href="productos.html" class="btn-ver">Ver más</a>
         </div>
         <div class="card-producto">
-          <img src="img/producto2.jpg" alt="Producto destacado 2" />
+          <img src="assets/img/campus.jpg" alt="Producto destacado 2" />
           <h3>Producto 2</h3>
           <p>$80.00</p>
           <a href="productos.html" class="btn-ver">Ver más</a>
+        </div>
+        <div class="card-producto">
+            <img src="assets/img/vans.jpg" alt="producto destacado 3"/>
+            <h3>producto 3</h3>
+            <p>$70.00</p>
+            <a href="productos.html" class="btn-ver">Ver mas</a>
         </div>
         <!-- Agregar más productos según lo necesites -->
       </div>
     </section>
   </main>
 
-  <footer>
-    <p>&copy; 2025 AFFRA. Todos los derechos reservados.</p>
+  <footer class="pie">
+        <p>&copy; 2024 AFFRA. Todos los derechos reservados.</p> <!-- Información de los derechos reservados -->
+        <div class="redes">
+            <a href="https://www.instagram.com/affra.calzados?igsh=ODFrNjB5czh0ZTVm">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/share/1JqNBaHSmB/?mibextid=LQQJ4d">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/index.js"></script>
 </body>
 </html>

@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
   }
   
   body {
@@ -13,8 +14,8 @@
   }
   
   header {
-    background-color: #000;
-    color: #fff;
+    background-color: #143d68;
+    color: #927207;
     padding: 1rem;
     text-align: center;
   }
@@ -24,7 +25,7 @@
   }
   
   nav a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     margin: 0 1rem;
     font-weight: bold;
@@ -32,6 +33,31 @@
   
   main {
     padding: 2rem;
+  }
+
+  .destacados h2{
+    margin: 50px;
+    text-align: center;
+  }
+
+  footer {
+      
+    text-align: center;
+    padding: 15px 0;
+    background-color: #143d68;
+    color:#d6900c;
+    font-size: 15px;
+  }
+  footer p {
+    margin-bottom: 15px;
+  }
+  .redes a {
+    text-decoration: none;
+    color:#d6900c;
+    font-size: 15px;
+  }
+  .redes a:hover{
+    color: #030303;
   }
   
   /* Catálogo */
